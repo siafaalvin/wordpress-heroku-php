@@ -1,83 +1,54 @@
 <?php
+
+// BEGIN iThemes Security - Do not modify or remove this line
+// iThemes Security Config Details: 2
+define( 'DISALLOW_FILE_EDIT', true ); // Disable File Editor - Security > Settings > WordPress Tweaks > File Editor
+// END iThemes Security - Do not modify or remove this line
+
 /**
- * The base configurations of the WordPress.
+ * The base configuration for WordPress
  *
- * This file has the following configurations: MySQL settings, Table Prefix,
- * Secret Keys, WordPress Language, and ABSPATH. You can find more information
- * by visiting {@link http://codex.wordpress.org/Editing_wp-config.php Editing
- * wp-config.php} Codex page. You can get the MySQL settings from your web host.
+ * The wp-config.php creation script uses this file during the
+ * installation. You don't have to use the web site, you can
+ * copy this file to "wp-config.php" and fill in the values.
  *
- * This file is used by the wp-config.php creation script during the
- * installation. You don't have to use the web site, you can just copy this file
- * to "wp-config.php" and fill in the values.
+ * This file contains the following configurations:
+ *
+ * * MySQL settings
+ * * Secret keys
+ * * Database table prefix
+ * * ABSPATH
+ *
+ * @link https://codex.wordpress.org/Editing_wp-config.php
  *
  * @package WordPress
  */
 
-require_once(__DIR__ . '/../vendor/autoload.php');
-// (new \Dotenv\Dotenv(__DIR__.'/../'))->load();
+// ** MySQL settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define('DB_NAME','hyroglf9_CSS5455_st2');
 
-if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 
-	/** Declare Dev-mode for WordPress */
-	define( 'WP_LOCAL_DEV', true );
+define('FORCE_SSL_LOGIN', true);
 
-	/** Include config for dev environment */
-	include( dirname( __FILE__ ) . '/local-config.php' );
+define('FORCE_SSL_ADMIN', true);
 
-} else {
+/** MySQL database username */
+//define('DB_USER','hyroglf9_st2');
+define('DB_USER','hyroglf9_st2');
 
-	$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+/** MySQL database password */
+//define('DB_PASSWORD','M5yaEdx_i60CKZrWP5_Q');
+define('DB_PASSWORD','M5yaEdx_i60CKZrWP5_Q');
 
-	/** The name of the database for WordPress */
-	define("DB_NAME", trim($url["path"], "/"));
+/** MySQL hostname */
+define('DB_HOST', 'localhost');
 
-	/** MySQL database username */
-	define("DB_USER", trim($url["user"]));
-
-	/** MySQL database password */
-	define("DB_PASSWORD", trim($url["pass"]));
-
-	/** MySQL hostname */
-	define("DB_HOST", trim($url["host"]));
-
-	/** MySQL database port  */
-	// define("DB_PORT", trim($url["port"]));
-
-	/** Database Charset to use in creating database tables. */
-	define("DB_CHARSET", "utf8");
-
-	/** Allows both foobar.com and foobar.herokuapp.com to load media assets correctly. Also adds /wp/ to give WordPress its own directory. */
-	define("WP_SITEURL", "http://" . $_SERVER["HTTP_HOST"] . "/wp/");
-	define("WP_HOME", "http://" . $_SERVER["HTTP_HOST"]);
-
-	define("FORCE_SSL_LOGIN", getenv("FORCE_SSL_LOGIN") == "true");
-	define("FORCE_SSL_ADMIN", getenv("FORCE_SSL_ADMIN") == "true");
-	if ($_SERVER["HTTP_X_FORWARDED_PROTO"] == "https")
-	  $_SERVER["HTTPS"] = "on";
-
-	/** Enable the WordPress Object Cache */
-	define("WP_CACHE", getenv("WP_CACHE") == "true");
-
-	/** Disable the built-in cron job */
-	define("DISABLE_WP_CRON", getenv("DISABLE_WP_CRON") == "true");
-
-	/** Disable automatic updates, they won't survive restarting and scaling dynos */
-	define("AUTOMATIC_UPDATER_DISABLED", true );
-
-	/**  Prevent File Modifications */
-	define ("DISALLOW_FILE_EDIT", true );
-
-	/**  Prevent installation of themes or plugins */
-	define("DISALLOW_FILE_MODS", true );
-
-	/** For developers: WordPress debugging mode. */
-	define("WP_DEBUG", getenv("WP_DEBUG") == "true");
-
-}
+/** Database Charset to use in creating database tables. */
+define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
-define("DB_COLLATE", "");
+define('DB_COLLATE', '');
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -88,49 +59,48 @@ define("DB_COLLATE", "");
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         '1gH,-bPusJ9{2yQ8uZ(HQ>Bq&HAt:nVfg1qI<35W[~JLC.#96!>%uU4|Oxh*kK+x');
+define('SECURE_AUTH_KEY',  ':cFp-J@Og/.S}bNK ZRd{{u>h#|p;TSkSx;pO2c`gbJjEjH#eWmgqfM=dkx@aA8.');
+define('LOGGED_IN_KEY',    '?(PyKmx9rTBJTtyeq`C_G=w:R{M__7_-O|(fx8%#N-IMMHuWb>apk@rn1]>=; a>');
+define('NONCE_KEY',        '4oE=|MY);e&2nR~6B3,bl^k?k3PTby3&mOeC$(yAD,Q+oA*89WA+>a|AWveo9RK4');
+define('AUTH_SALT',        'gLR<%v &D}Kc-0`+GC#E.@@JJz|XM ma,vc5>ua/&9*G1`SDQMIQY_}2`.#U ,]c');
+define('SECURE_AUTH_SALT', 'HoW9JQYk9@8+I@@ESQk,i]>Fx)P,2/0aE>oI2G6agc, a^#TZ6H5&l5-B2M8}BUx');
+define('LOGGED_IN_SALT',   't[Dw}^b=-Vj|uN#}-swA_MN{M/1YU/1*GxTs;DLeeb7F|A#A(j1eb[Jh%P*7K=RD');
+define('NONCE_SALT',       '#fr6<y0F,mkoZgr18IcWRe5#@Q^oA7@HW9ajv>>4@W%Tm452]lMri7t3Lx+BIi&J');
 
 /**#@-*/
 
 /**
  * WordPress Database Table prefix.
  *
- * You can have multiple installations in one database if you give each a unique
- * prefix. Only numbers, letters, and underscores please!
+ * You can have multiple installations in one database if you give each
+ * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = "wp_";
+define('WP_CACHE_KEY_SALT', 'ywiCCaKp8Tmoe5QzdSoCeA');
+$table_prefix  = 'wp_';
 
 /**
- * WordPress Localized Language, defaults to English.
+ * For developers: WordPress debugging mode.
  *
- * Change this to localize WordPress. A corresponding MO file for the chosen
- * language must be installed to wp-content/languages. For example, install
- * de_DE.mo to wp-content/languages and set WPLANG to "de_DE" to enable German
- * language support.
+ * Change this to true to enable the display of notices during development.
+ * It is strongly recommended that plugin and theme developers use WP_DEBUG
+ * in their development environments.
+ *
+ * For information on other constants that can be used for debugging,
+ * visit the Codex.
+ *
+ * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define("WPLANG", "");
+define('WP_DEBUG', false);
 
-/**
- * AWS Plugin Auth Keys
- */
-define( "AWS_ACCESS_KEY_ID", getenv("AWS_ACCESS_KEY_ID") );
-define( "AWS_SECRET_ACCESS_KEY", getenv("AWS_SECRET_ACCESS_KEY") );
-
-/* That"s all, stop editing! Happy blogging. */
-
-define( "WP_CONTENT_DIR", $_SERVER['DOCUMENT_ROOT'] . "/content" );
-define( "WP_CONTENT_URL", "http://" . $_SERVER['HTTP_HOST'] . "/content" );
+/* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
-if ( !defined("ABSPATH") )
-  define("ABSPATH", dirname(__FILE__) . "/");
+if ( !defined('ABSPATH') )
+	define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
-require_once(ABSPATH . "wp-settings.php");
+require_once(ABSPATH . 'wp-settings.php');
+
+# Disables all core updates. Added by SiteGround Autoupdate:
+define( 'WP_AUTO_UPDATE_CORE', false );
