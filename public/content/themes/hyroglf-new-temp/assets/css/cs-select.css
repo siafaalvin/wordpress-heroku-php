@@ -1,0 +1,141 @@
+/* Default custom select styles */
+div.cs-select,div.cs-select-c {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	text-align: left;
+	background: #fff;
+	z-index: 5;
+	width: 70%;
+	max-width: 500px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#frontier_post > table > tbody > tr:nth-child(2) > td > div > div > div > div {
+	width: 40%;
+}
+
+div.cs-select:focus,div.cs-select-c:focus {
+	outline: none; /* For better accessibility add a style for this in your skin */
+}
+
+.cs-select select {
+	display: none;
+}
+
+.cs-select span,.cs-select-c span {
+	display: block;
+	position: relative;
+	cursor: pointer;
+	padding: 5px 28px 5px 10px !important;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height:1.4;
+}
+.cs-options span,.cs-options-c span{
+	padding: 5px 10px !important;
+}
+
+/* Placeholder and selected option */
+/*.cs-select > span {
+	padding-right: 25px;
+}*/
+
+.cs-select > span::after,
+.cs-select .cs-selected span::after,
+.cs-select-c > span::after,
+.cs-select-c .cs-selected span::after {
+	speak: none;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.cs-select > span::after,
+.cs-select-c > span::after {
+	content: '\25BE';
+	font-size: 12px;
+	right: 12px;
+	padding: 9px;
+	background: #D2D1CF;
+	color: #ffffff;
+	margin-right: -12px;
+}
+
+
+
+.cs-select .cs-selected span::after,
+.cs-select-c .cs-selected span::after {
+	content: '\2713';
+	margin-left: 1em;
+}
+
+.cs-select.cs-active > span::after,
+.cs-select-c.cs-active-c > span::after {
+	-webkit-transform: translateY(-50%) rotate(180deg);
+	transform: translateY(-50%) rotate(180deg);
+}
+
+div.cs-active,
+div.cs-active-c {
+	z-index: 8;
+}
+
+/* Options */
+.cs-select .cs-options,
+.cs-select-c .cs-options-c {
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	background: #fff;
+	visibility: hidden;
+}
+
+.cs-select.cs-active .cs-options,.cs-select-c.cs-active-c .cs-options-c {
+	visibility: visible;
+}
+
+.cs-select ul ,.cs-select-c ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.cs-select ul span ,.cs-select-c ul span {
+	padding: 1em;
+}
+
+.cs-select ul li.cs-focus span,.cs-select-c ul li.cs-focus span {
+	background-color: #ddd;
+}
+
+/* Optgroup and optgroup label */
+.cs-select li.cs-optgroup ul,.cs-select-c li.cs-optgroup ul {
+	padding-left: 1em;
+}
+
+.cs-select li.cs-optgroup > span,.cs-select-c li.cs-optgroup > span {
+	cursor: default;
+}
+@media only screen and (max-width: 767px){
+	.cs-select > span::after,.cs-select-c > span::after{
+		font-size: 10px;
+		padding: 8px 4px;
+	}
+	.cs-select spa,.cs-select-c span{
+		padding: 5px 15px 5px 3px !important;
+	}
+	.cs-options span,.cs-options-c span{
+		padding: 5px!important;
+	}
+}

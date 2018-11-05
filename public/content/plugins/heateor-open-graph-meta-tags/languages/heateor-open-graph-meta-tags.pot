@@ -1,0 +1,502 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Heateor Open Graph Meta Tags\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-10 03:15+0530\n"
+"PO-Revision-Date: 2016-10-10 03:15+0530\n"
+"Last-Translator: The Champ <lordofthechamps@gmail.com>\n"
+"Language-Team: Team Heateor <hello@heateor.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: India\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-heateor-open-graph-meta-tags-admin.php:52
+msgid "Open Graph Meta Tags by Heateor"
+msgstr ""
+
+#: ../admin/class-heateor-open-graph-meta-tags-admin.php:54
+msgid "Open Graph Meta Tags Options"
+msgstr ""
+
+#: ../admin/class-heateor-open-graph-meta-tags-admin.php:54
+msgid "Open Graph Meta Tags"
+msgstr ""
+
+#: ../admin/class-heateor-open-graph-meta-tags-admin.php:96
+msgid "Disable Meta Tags on this "
+msgstr ""
+
+#: ../admin/class-heateor-open-graph-meta-tags-admin.php:202
+msgid "Click to show help"
+msgstr ""
+
+#: ../admin/class-heateor-open-graph-meta-tags-admin.php:202
+msgid "Click to hide help"
+msgstr ""
+
+#: ../admin/class-heateor-open-graph-meta-tags-admin.php:235
+msgid "Settings saved"
+msgstr ""
+
+#: ../admin/class-heateor-open-graph-meta-tags-admin.php:235
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../admin/class-heateor-open-graph-meta-tags-admin.php:314
+msgid "Settings"
+msgstr ""
+
+#: ../admin/class-heateor-open-graph-meta-tags-admin.php:315
+msgid "Add-Ons"
+msgstr ""
+
+#: ../admin/class-heateor-open-graph-meta-tags-admin.php:376
+msgid "Facebook Open Graph Meta Tags cache purged"
+msgstr ""
+
+#: ../admin/class-heateor-open-graph-meta-tags-admin.php:376
+msgid "Try sharing this on Facebook"
+msgstr ""
+
+#: ../admin/class-heateor-open-graph-meta-tags-admin.php:404
+msgid "Facebook Profile Url"
+msgstr ""
+
+#: ../admin/class-heateor-open-graph-meta-tags-admin.php:408
+msgid "Google Plus Profile Url"
+msgstr ""
+
+#: ../admin/class-heateor-open-graph-meta-tags-admin.php:412
+msgid "Twitter Username (Without @)"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-about.php:4
+msgid "About"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-about.php:4
+msgid "Version"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-about.php:6
+msgid "by"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-about.php:7
+msgid "We are a creative team with unique ideas in mind and service in heart. We love what we do. For more info join us at"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-about.php:17
+msgid "Donate"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-about.php:19
+msgid "You can help us continue the development of this free plugin by donating"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-about.php:20
+msgid "Donate Now"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-about.php:26
+msgid "Support Forum"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-about.php:31
+msgid "Need Quick Help?"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-about.php:33
+msgid "If you <strong>have any query</strong>, need help regarding <strong>plugin setup</strong>, want <strong>custom features</strong> in the plugin or <strong>have any suggestion</strong> to improve the plugin, just drop an email at <a href=\"mailto:support@heateor.com\">support@heateor.com</a>"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-about.php:38
+msgid "Support Us"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-about.php:41
+#: ../admin/partials/heateor-open-graph-meta-tags-about.php:44
+#: ../admin/partials/heateor-open-graph-meta-tags-about.php:45
+#: ../admin/partials/heateor-open-graph-meta-tags-about.php:46
+#: ../admin/partials/heateor-open-graph-meta-tags-about.php:47
+#: ../admin/partials/heateor-open-graph-meta-tags-about.php:48
+msgid "Rate 5-star"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:27
+msgid "General Options"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:28
+msgid "Facebook Open Graph"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:29
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:447
+msgid "Twitter Cards"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:30
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:580
+msgid "Google/Schema"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:32
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:699
+msgid "3rd Party Integration"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:34
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:776
+msgid "Troubleshooter"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:41
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:47
+msgid "Delete all the options on plugin deletion"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:57
+msgid "If enabled, plugin options will get deleted when plugin is deleted/uninstalled and you will need to reconfigure the options when you install the plugin next time"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:66
+msgid "Meta Tags"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:72
+msgid "Add trailing slash at the end of homepage url"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:82
+msgid "If enabled, trailing slash will be appended to homepage url in og:url tag at homepage"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:90
+msgid "Set Canonical URL"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:100
+msgid "&lt;link rel=\"canonical\" href=\"...\"/&gt;"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:108
+msgid "Include Author Meta tag"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:118
+msgid "&lt;meta name=\"author\" content=\"...\"/&gt; Sets the author name for the article"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:126
+msgid "Hide author tags on pages"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:136
+msgid "Include Meta Description tag"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:146
+msgid "&lt;meta name=\"description\" content=\"...\"/&gt; Good for SEO if no other plugin is setting it already"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:154
+msgid "Maximum length of meta description"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:164
+msgid "Keep blank for no maximum length"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:172
+msgid "Homepage description"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:186
+msgid "Default image for image meta tags"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:190
+msgid "Upload/Choose image"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:193
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:371
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:630
+msgid "Full URL with http://"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:195
+msgid "Recommended size: 1200x630px"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:203
+msgid "Priority order for Image meta tag value for posts/pages"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:206
+msgid "Use featured image of the post"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:207
+msgid "Use the first image from the post/page content"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:208
+msgid "Use first image from the post/page media gallery"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:209
+msgid "Use the default image specified above"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:222
+msgid "Facebook Open Graph Meta Tags"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:227
+msgid "Choose which meta tags to include:"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:234
+msgid "Locale tag"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:244
+msgid "Locale"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:254
+msgid "Site Name tag"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:264
+msgid "Post/Page title tag"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:274
+msgid "URL tag"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:284
+msgid "Type tag"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:294
+msgid "Homepage type"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:307
+msgid "Published and Modified dates tags"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:317
+msgid "Works for posts only"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:325
+msgid "Article section tags"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:335
+msgid "Works for posts only, from the categories"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:343
+msgid "Publisher Page tag"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:353
+msgid "Enable to link your website to the publisher Facebook page"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:361
+msgid "Website's Facebook Page"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:379
+msgid "Author Profile tag"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:389
+msgid "Enable to link the article to author's Facebook profile. The user's Facebook profile URL must be filled in"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:397
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:525
+msgid "Description tag"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:407
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:543
+msgid "Image tag"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:412
+msgid "Minimum image dimension is 200x200 pixels for Facebook to load them in sharer. Ideal dimension 1200x630 pixels. Recommended dimension 600x315 pixels."
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:419
+msgid "Image size tags"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:424
+msgid "Use ONLY if Facebook is having problems loading the image when the post is shared for the first time."
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:431
+msgid "Clear Facebook Open Graph Tags cache every time a post/page is saved"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:452
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:585
+msgid "Include:"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:459
+msgid "Title tag"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:469
+msgid "Url tag (twitter:url)"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:479
+msgid "Website Username tag"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:489
+msgid "Enable to link your website to a Twitter profile"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:497
+msgid "Twitter username (without @)"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:507
+msgid "Creator tag"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:517
+msgid "&lt;meta name='twitter:creator' content='@...'/&gt; Enable to link the article to the author's Twitter profile. The user's Twitter username must be filled in"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:535
+msgid "&lt;meta name=\"twitter:description\" content\"...\"/&gt; Good for Twitter sharing if no other plugin is setting it already"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:553
+msgid "&lt;meta name=\"twitter:image:src\" content=\"...\"/&gt; Good for Twitter sharing if no other plugin is setting it already"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:561
+msgid "Twitter Card type"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:565
+msgid "Summary card with large image"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:566
+msgid "Summary card"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:592
+msgid "Schema.org 'itemprop' Name tag"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:602
+msgid "Google+ 'publisher' tag"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:612
+msgid "Enable, if you want to link the website to the publisher Google+ page"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:620
+msgid "Website's Google+ page"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:638
+msgid "Google+ link rel 'author' tag"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:648
+msgid "&lt;link rel='author' href='...'/&gt; Enable to link the article to the author's Google+ Profile (authorship). The user's Google+ profile URL must be filled in."
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:656
+msgid "Schema.org 'itemprop' Description tag"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:666
+msgid "&lt;meta itemprop=\"description\" content=\"...\"/&gt; Good for Google+ sharing if no other plugin is setting it already"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:674
+msgid "Schema.org 'itemprop' Image tag"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:684
+msgid "&lt;meta itemprop=\"image\" content=\"...\"/&gt; Good for Google+ sharing if no other plugin is setting it already"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:706
+msgid "Disable \"Add Open Graph meta data\" and \"Add Twitter card meta data\" options from <a href=\"admin.php?page=wpseo_social\" target=\"_blank\">SEO &gt; Social</a> page to avoid duplicate meta tags"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:714
+msgid "Use title, url (canonical) and description tags from Yoast SEO"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:726
+msgid "Use Product Category thumbnail as Open Graph Image"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:732
+msgid "Recommended, if you set large thumbnails for Product Categories and want to use them as Open Graph Images on listing pages"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:742
+msgid "Add SubHeading to Post/Page title"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:754
+msgid "Use BDP listing contents as OG tags"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:760
+msgid "Enabling \"Include URL\", \"Set Canonical URL\", \"Include Description\" and \"Include Image\" options above is HIGHLY recommended"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:781
+msgid "If meta tags content is not appearing in Facebook sharer, click at the following link and fetch new scrape information for the problematic url (where you are facing the issue) of your website"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:784
+msgid "If Twitter card content is not appearing in the tweets, navigate to following link, enter the webpage url (where you are facing the issue) and click \"Preview card\" button"
+msgstr ""
+
+#: ../admin/partials/heateor-open-graph-meta-tags-options-page.php:797
+msgid "Save Changes"
+msgstr ""
+
+#: ../public/class-heateor-open-graph-meta-tags-public.php:304
+msgid "Search for"
+msgstr ""
+
+#: ../public/class-heateor-open-graph-meta-tags-public.php:313
+#: ../public/class-heateor-open-graph-meta-tags-public.php:317
+#: ../public/class-heateor-open-graph-meta-tags-public.php:321
+msgid "Archives"
+msgstr ""
+

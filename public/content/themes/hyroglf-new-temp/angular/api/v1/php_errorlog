@@ -1,0 +1,47 @@
+[01-Sep-2017 02:25:24 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'DbHandler' not found in /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/v1/authentication.php:118
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#3 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#7 /home/hyroglf9/public_ht in /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/v1/authentication.php on line 118
+[01-Sep-2017 02:25:24 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'DbHandler' not found in /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/v1/authentication.php:6
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#3 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#7 /home/hyroglf9/public_html in /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/v1/authentication.php on line 6
+[07-Sep-2017 09:31:22 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'DbHandler' not found in /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/v1/authentication.php:142
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#3 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#7 /home/hyroglf9/public_ht in /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/v1/authentication.php on line 142
+[07-Oct-2017 02:28:29 CST6CDT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/v1/dbHandler.php on line 972
+[07-Oct-2017 02:28:37 CST6CDT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/v1/dbHandler.php on line 972
+[07-Oct-2017 02:29:04 CST6CDT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/v1/dbHandler.php on line 972
+[07-Oct-2017 02:30:16 CST6CDT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/v1/dbHandler.php on line 972
+[07-Oct-2017 02:31:00 CST6CDT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/v1/dbHandler.php on line 972
+[30-Oct-2017 01:28:10 CST6CDT] PHP Fatal error:  require_once(): Failed opening required 'dbHandler.php' (include_path='.:/usr/local/php70/pear') in /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/v1/index.php on line 2
+[20-Dec-2017 06:10:42 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'DbHandler' not found in /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/v1/authentication.php:6
+Stack trace:
+#0 [internal function]: {closure}()
+#1 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Slim.php(1307): Slim\Route->dispatch()
+#3 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/libs/Slim/Slim.php(1254): Slim\Middleware\PrettyExceptions->call()
+#7 /home/hyroglf9/public_html in /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/v1/authentication.php on line 6
+[13-Jan-2018 01:06:42 CST6CDT] PHP Parse error:  syntax error, unexpected '". ')"' (T_CONSTANT_ENCAPSED_STRING) in /home/hyroglf9/public_html/wp-content/themes/hyroglf/angular/api/v1/dbHandler.php on line 459

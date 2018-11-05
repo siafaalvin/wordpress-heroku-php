@@ -1,0 +1,217 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon/icomoon.eot?-rdnm34');
+	src:url('../fonts/icomoon/icomoon.eot?#iefix-rdnm34') format('embedded-opentype'),
+		url('../fonts/icomoon/icomoon.woff?-rdnm34') format('woff'),
+		url('../fonts/icomoon/icomoon.ttf?-rdnm34') format('truetype'),
+		url('../fonts/icomoon/icomoon.svg?-rdnm34#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+div.cs-skin-elastic,
+div.cs-skin-elastic-c {
+	background: #f2f2f2;
+	font-size: 14px;
+	font-weight: 400;
+	color: #000000;
+	border: 1px solid #ccc;
+}
+
+span.cs-placeholder,
+#frontier_post > table > tbody > tr:nth-child(1) > td > fieldset.frontier_post_fieldset_tax.frontier_post_fieldset_tax_category > div.cat_select_action > div > span {
+	font-size: 1em;
+}
+
+input#publish_date_news_manual {
+    opacity: 0.5;
+}
+
+
+@media screen and (max-width: 30em) {
+	div.cs-skin-elastic,div.cs-skin-elastic-c { font-size: 1em; }
+}
+
+.cs-skin-elastic > span,.cs-skin-elastic-c > span {
+	background-color: #f2f2f2;
+	z-index: 100;
+	/* font-size: 14px; */
+	font-size: 1.2em;
+}
+
+.cs-skin-elastic > span::after,.cs-skin-elastic-c > span::after {
+	/*font-family: 'icomoon';
+	content: '\e005';*/
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	content:"\25bc"
+}
+
+.cs-skin-elastic .cs-options,.cs-skin-elastic-c .cs-options-c {
+	overflow: auto;
+	background: transparent;
+	opacity: 1;
+	visibility: visible;
+	padding-bottom: 0;
+	pointer-events: none;
+	max-height:125px;
+	display:none;
+}
+.cs-skin-elastic.cs-active .cs-options,.cs-skin-elastic-c.cs-active-c .cs-options-c {
+	pointer-events: auto;
+    margin-top: 1px;
+	overflow:auto;
+	background:#ffffff;
+	display:block;
+}
+.cs-skin-elastic .cs-options > ul::before,.cs-skin-elastic-c .cs-options-c > ul::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	-webkit-transform: scale3d(1,0,1);
+	transform: scale3d(1,0,1);
+	background: #fff;
+	-webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+.cs-skin-elastic.cs-active .cs-options > ul::before,
+.cs-skin-elastic-c.cs-active-c .cs-options-c > ul::before {
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+	-webkit-transition: none;
+	transition: none;
+	-webkit-animation: expand 0.6s ease-out;
+  	animation: expand 0.6s ease-out;
+}
+.cs-skin-elastic .cs-options ul li,.cs-skin-elastic-c .cs-options-c ul li {
+	opacity: 0;
+	-webkit-transform: translate3d(0,-25px,0);
+	transform: translate3d(0,-25px,0);
+	-webkit-transition: opacity 0.15s, -webkit-transform 0.15s;
+	transition: opacity 0.15s, transform 0.15s;
+}
+
+.cs-skin-elastic.cs-active .cs-options ul li,
+.cs-skin-elastic-c.cs-active-c .cs-options-c ul li {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	opacity: 1;
+	-webkit-transition: none;
+	transition: none;
+	-webkit-animation: bounce 0.6s ease-out;
+  	animation: bounce 0.6s ease-out;
+	border-color: #ccc;
+    border-style: solid;
+    border-width: 0 1px 1px;
+	margin-bottom:0px;
+}
+
+/* Optional delays (problematic in IE 11/Win) */
+/*
+.cs-skin-elastic.cs-active .cs-options ul li:first-child {
+	-webkit-animation-delay: 0.1s;
+	animation-delay: 0.1s;
+}
+
+.cs-skin-elastic.cs-active .cs-options ul li:nth-child(2) {
+	-webkit-animation-delay: 0.15s;
+	animation-delay: 0.15s;
+}
+
+.cs-skin-elastic.cs-active .cs-options ul li:nth-child(3) {
+	-webkit-animation-delay: 0.2s;
+	animation-delay: 0.2s;
+}
+
+.cs-skin-elastic.cs-active .cs-options ul li:nth-child(4) {
+	-webkit-animation-delay: 0.25s;
+	animation-delay: 0.25s;
+}
+
+/* with more items, more delays declarations are needed */
+
+
+.cs-skin-elastic .cs-options span,.cs-skin-elastic-c .cs-options-c span {
+	background-repeat: no-repeat;
+	background-position: 1.5em 50%;
+	background-size: 2em auto;
+	padding: 5px 10px;
+	/* font-size: 14px; */
+	font-size: 1em;
+}
+
+.cs-skin-elastic .cs-options span:hover,
+.cs-skin-elastic .cs-options li.cs-focus span,
+.cs-skin-elastic .cs-options .cs-selected span,
+.cs-skin-elastic-c .cs-options-c span:hover,
+.cs-skin-elastic-c .cs-options-c li.cs-focus span,
+.cs-skin-elastic-c .cs-options-c .cs-selected span {
+	color: #000000;
+	background: #ececec none repeat scroll 0 0;
+}
+
+.cs-skin-elastic .cs-options .cs-selected span::after,
+.cs-skin-elastic-c .cs-options-c .cs-selected-c span::after {
+	content: '';
+}
+
+.cs-skin-elastic .cs-options li.flag-france span,
+.cs-skin-elastic-c .cs-options-c li.flag-france span {
+	background-image: url(../img/france.svg);
+}
+
+.cs-skin-elastic .cs-options li.flag-brazil span {
+	background-image: url(../img/brazil.svg);
+}
+
+.cs-skin-elastic .cs-options li.flag-safrica span {
+	background-image: url(../img/south-africa.svg);
+}
+
+.cs-skin-elastic .cs-options li.flag-argentina span {
+	background-image: url(../img/argentina.svg);
+}
+
+@-webkit-keyframes expand {
+	0% { -webkit-transform: scale3d(1,0,1); }
+	25% { -webkit-transform: scale3d(1,1.2,1); }
+	50% { -webkit-transform: scale3d(1,0.85,1); }
+	75% { -webkit-transform: scale3d(1,1.05,1) }
+	100% { -webkit-transform: scale3d(1,1,1); }
+}
+
+@keyframes expand {
+	0% { -webkit-transform: scale3d(1,0,1); transform: scale3d(1,0,1); }
+	25% { -webkit-transform: scale3d(1,1.2,1); transform: scale3d(1,1.2,1); }
+	50% { -webkit-transform: scale3d(1,0.85,1); transform: scale3d(1,0.85,1); }
+	75% { -webkit-transform: scale3d(1,1.05,1); transform: scale3d(1,1.05,1); }
+	100% { -webkit-transform: scale3d(1,1,1); transform: scale3d(1,1,1); }
+}
+
+
+@-webkit-keyframes bounce {
+	0% { -webkit-transform: translate3d(0,-25px,0); opacity:0; }
+	25% { -webkit-transform: translate3d(0,10px,0); }
+	50% { -webkit-transform: translate3d(0,-6px,0); }
+	75% { -webkit-transform: translate3d(0,2px,0); }
+	100% { -webkit-transform: translate3d(0,0,0); opacity: 1; }
+}
+
+@keyframes bounce {
+	0% { -webkit-transform: translate3d(0,-25px,0); transform: translate3d(0,-25px,0); opacity:0; }
+	25% { -webkit-transform: translate3d(0,10px,0); transform: translate3d(0,10px,0); }
+	50% { -webkit-transform: translate3d(0,-6px,0); transform: translate3d(0,-6px,0); }
+	75% { -webkit-transform: translate3d(0,2px,0); transform: translate3d(0,2px,0); }
+	100% { -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0); opacity: 1; }
+}
+@media only screen and (max-width: 767px){
+	.cs-skin-elastic > span,.cs-skin-elastic-c > span,
+	.cs-skin-elastic .cs-options span,.cs-skin-elastic-c .cs-options-c span{
+		font-size: 12px !important;
+	}
+}

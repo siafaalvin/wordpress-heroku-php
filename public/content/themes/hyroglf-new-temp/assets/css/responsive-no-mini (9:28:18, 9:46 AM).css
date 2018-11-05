@@ -1,0 +1,1983 @@
+@media only screen and (min-width: 1600px) {
+	.error404 .post_content img {
+		max-width:100%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	html.fancybox-lock {
+		/*overflow:auto !important;*/
+		margin-right:0px !important;
+	}
+	html.fancybox-lock body {
+		overflow:hidden !important;
+		margin-right:17px;
+	}
+	.page-terms .content ul {
+		padding-left:14px !important;
+	}
+}
+@media only screen and (max-width: 1300px) {
+	.error404 .post_content img {
+		max-width:350px;
+	}
+	.fancybox-iframe {
+		height: 100% !important;
+		width: 100% !important;
+	}
+
+}
+
+@media only screen and (max-width: 1219px) { /* Layout width - 1 */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .todays_featured_picture_text {
+     width: 84%;
+  }
+  .infor_drop_down_sort_section,
+  .bias_drop_down_sort{
+  	width: 49%;
+  }
+  .input_fields_wrap div.video_url textarea{
+	width: 75%;
+  }
+  /*.wiki_wrapper .wiki_left_section, .wiki_wrapper .wiki_right_section, footer .top_search {
+	width: 19%;
+  }*/
+ /*.wiki_wrapper{
+	padding:0px 21% 60px;
+  }*/
+  /*.header_advertisement_logo.desktop_advertisement_logo,
+  .header_right{
+	width: 20%;
+  }
+  .logo{
+	padding-right: 20%;
+   }*/
+  .logo a{
+	margin-right: -20%;
+	padding-right: 20%;
+   }
+   .header_right ul li a {
+ 	margin-right:10px !important;
+	padding-right:10px !important;
+   }
+  .home_content_section .ajax_filter_content .post_filter_text h3{
+	font-size:30px;
+  }
+  .sort_section {
+	display:inline-block;
+	width:100%;
+	padding-top:25px;
+  }
+  /*.content_wrapper {
+	  padding:0px 15px;
+  }*/
+  .page-privacy-policy .content_wrapper {
+	margin-bottom:58px;
+  }
+  .list_post_rating_section {
+	display: inline;
+	}
+}
+
+@media only screen and (max-width: 1220px){
+	.sort_date {
+		width:50px;
+		padding-top:2px;
+	}
+	.sorting_text {
+		padding-top: 6px;
+		font-size:13px;
+		display:none;
+	}
+	.sorting_left_filter {
+		margin-right: -45px;
+		width: 45px;
+	}
+	.sort_drop_down_action{
+		padding-left: 60px;
+	}
+	.page-my-posts .content_wrapper .content {
+		margin-bottom:60px;
+	}
+	/*.wiki_center_section {
+		padding:0px 15px;
+	}*/
+	.fancybox-nav.fancybox-prev span {
+		left: 30px;
+	}
+	.fancybox-nav.fancybox-next span {
+		right: 30px;
+	}
+
+
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 1050px) {
+	header{
+		width: 100%;
+	}
+	body{
+		font-size: 16px;
+		background:#FFF2DB;
+	}
+	.home footer {
+		display:none;
+	}
+	.page-wrapper {
+		padding:0px;
+	}
+	.wiki_wrapper .wiki_left_section,
+	.wiki_wrapper .wiki_right_section {
+		display:none !important;
+	}
+	.logo{
+		/*width: 100%;*/
+		width: 60%;
+		text-align:center;
+		margin-bottom:15px;
+		max-width:100%;
+		padding-right:0px;
+		margin-left:0%;
+		/*position:fixed;
+		left:0px;
+		top:0px;
+		background:#FFF2DB;
+		z-index:10;*/
+	}
+	#about_link > p {
+		font-size: 15px;
+		margin-bottom:0px;
+	}
+	/*.makefixed .logo{
+		border-bottom: 1px solid #aaa;
+	}*/
+	.header_advertisement_logo.desktop_advertisement_logo {
+		left: 10px;
+		margin-top: 0;
+		position: absolute;
+		top: 20px;
+		transform: unset;
+		width: 16%;
+	}
+	.logo a{
+		margin-right: 0px;
+		padding-right:0px;
+	}
+	.logo a img{
+		max-width: 100%;
+		margin: 0px auto;
+	}
+	.home_head_content{
+		/*left: 0;
+		margin: 0 auto;
+		max-width: 96%;
+		right: 0;
+		width: 100%;*/
+		position:relative;
+		max-width: 100%;
+		z-index: 9;
+		/*margin:0px;*/
+	}
+	.wiki_wrapper{
+		margin-top: 0px;
+	}
+	.header_right{
+		width: 100%;
+		text-align:center;
+		/*margin-top:15px;*/
+		position:static;
+	}
+	.header_right ul li {
+		width:48%;
+	}
+	.header_right > ul{
+		/*display: inline-block;
+		text-align:center;*/
+	}
+	.about_us_link{
+		/*display: inline-block;*/
+		clear:both;
+		vertical-align: middle;
+		margin-top:0px;
+	}
+	.wiki_left {
+		position:static;
+		width:100%;
+	}
+	.category_list ul {
+		display:none;
+	}
+	/*.logo {
+		margin-bottom: 0;
+		max-width: 70px;
+	}*/
+	.wiki_left_top {
+		width:100%;
+		margin-top:20px;
+	}
+	.wiki_left {
+		padding:10px 15px;
+	}
+	.wiki_left ul li {
+		margin:0px;
+	}
+	.wiki_topbar_right ul li {
+		width:100%;
+		margin:0px;
+	}
+	.wiki_topbar_right {
+		width:100%;
+		/*padding:0px 15px;*/
+	}
+	.text_box {
+		width:100%;
+	}
+	.wiki_right_top h3 {
+		font-size:18px;
+	}
+	.header_right ul {
+		margin-bottom:0px;
+	}
+	.can-edit .wiki_topbar_right ul {
+		display:table;
+		width:100%;
+		margin-bottom:2px;
+	}
+	.category_list{
+		display:none;
+	}
+	.barChart__row {
+		width: 90% !important;
+	}
+	.barChart__label {
+		width: 76px !important;
+	}
+	.barChart__value {
+		width: 0 !important;
+	}
+	.barChart__bar {
+		width:170px !important;
+	}
+	.todays_featured_picture_text {
+     	width: 71%;
+	 	vertical-align:top;
+  	}
+	.todays_featured_picture_img{
+		width:24%;
+	}
+	.todays_featured_picture_content {
+    	min-height: 208px;
+	}
+	.page-wrapper{
+		padding: 0px 10px 0px 10px;
+		/*margin-top:95px;*/
+	}
+	.home_content_section .ajax_filter_content .filter_post_img {
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+		width: 100%;
+	}
+	.post_cat_view_popup {
+    	display: inline-block;
+		float:none;
+	}
+	.home_content_section .ajax_filter_content .post_filter_text{
+		width: 100%;
+		margin-left: 0px;
+		text-align: right;
+		float:none;
+		margin-top:10px;
+		margin-top: 10px;
+	}
+	.home_content_section .ajax_filter_content .post_filter_text h3{
+		text-align: left;
+		float:left;
+		clear:both;
+		width: 70%;
+	}
+	.post_heade_edit_action {
+		float: right;
+		width: 30%;
+		padding:0px;
+		position:static;
+		text-align:right;
+	}
+	.home_content_section .ajax_filter_content .post_filter_text a{
+		width: 38px;
+		margin-left:0px;
+	}
+	.home_content_section .post_content .post_title,
+	.home_content_section .post_content .post_content_title{
+		width: 84%;
+		/*margin-bottom: 10px;*/
+	}
+	.post_new_and_edit_section .single_page_header_content h3{
+		font-size: 24px;
+	}
+	.post_view_content_head{
+		margin-bottom: 10px;
+		text-align:center;
+		position:relative;
+		display: table;
+		clear:both;
+		width:100%;
+	}
+	.footer_links ul li a{
+		font-size:11px;
+		margin-right:0px;
+	}
+	.wiki_category ul li span, .wiki_single_category ul li span, .wiki_categories ul li span{
+		font-size: 10px;
+	}
+	.single-post header .header_right{
+		text-align: center;
+	}
+	.popup_editor_modal{
+		width: 92%;
+		margin: 50px auto;
+	}
+	/*.single-post .single_post_title_section .post_title{
+		width: 75%;
+	}*/
+	.content_wrapper .content{
+		padding: 10px;
+	}
+	body.page-template-my-profile .content_wrapper .content {
+		padding:10px 10px 45px;
+	}
+	.single_edit_action ul li{
+		margin-left: 3px;
+		width:25px;
+	}
+	.single_edit_action{
+		width: 30%;
+		text-align:right;
+	}
+	.home_content_section .post_add_edit_section a,
+	.home_content_section .post_content .list_post_content .list_post_edit_action a{
+		width: 30px;
+	}
+	.home_content_section .post_content .post_add_edit_section a{
+		width: 100%;
+	}
+	.home_content_section .post_content .post_title h4,
+	.home_content_section .post_content .post_content_title h3{
+		font-size: 16px;
+		display:block;
+		margin:0px;
+		line-height:1.4;
+	}
+	.popup_editor_modal form#popup_form_editor{
+		padding:10px;
+	}
+	.show-767{
+		display: block;
+	}
+	.show-768{
+		display: none;
+	}
+	.wiki_category ul,.wiki_single_category ul,.wiki_categories ul{
+		margin: 0;
+		display:none;
+	}
+	.wiki_wrapper .content_wrapper,
+	.wiki_center_section{
+		width: 100%;
+		/*margin:10px 0 0;*/
+		padding:0px;
+		float: none;
+	}
+	.wiki_wrapper{
+		margin-left: 0px;
+		padding:0px;
+	}
+	.post_cat_image_modal_mobile_wrapper{
+		display: none;
+	}
+	.post_cat_image_modal_desktop_wrapper{
+		display: block;
+	}
+	.post_cat_image_modal_wrapper{
+		top: auto;
+		right:0px;
+		left:0px;
+	}
+	.post_cat_image_modal{
+		margin: 16px auto 0px;
+		width: 100%;3
+	}
+	.home_content_section .ajax_filter_content .post_filter_text img a{
+		width: 40px;
+	}
+	.wiki_category ul li span, .wiki_single_category ul li span, .wiki_categories ul li span{
+		font-size: 10px;
+	}
+	.single_post_image_section,
+	.single_post_video_section{
+		width: 80%;
+		margin: 0 auto 30px;
+		position:relative;
+		top:0px;
+	}
+	.single-post .wiki_wrapper .content_wrapper{
+		padding: 10px;
+	}
+	.fancybox-nav.fancybox-next span {
+		right:-20px !important;
+		background-size:100%;
+		height:42px;
+		width:41px;
+	}
+	.fancybox-nav.fancybox-prev span {
+		left:-20px !important;
+		background-size:100%;
+	}
+	.fancybox-close{
+		background-size:100% !important;
+	}
+	.post_list_video iframe{
+		max-width:100%;
+	}
+	.infor_drop_down_sort_section {
+		padding: 0 0px 0px;
+		width: 49%;
+		margin-left:0px;
+	}
+	.bias_drop_down_sort {
+		padding: 0 0px 0px;
+		width: 49%;
+		margin-left:0px;
+	}
+	.sort_date a.active::after {
+		content: "▼";
+		font-size: 10px;
+		position: absolute;
+		right: -7px;
+		top: 6px;
+	}
+	.post_cat_image_modal{
+		padding:8px;
+	}
+	.post_cat_image_modal:after{
+		right: 11px;
+		top: -3px;
+		/*left:0px;
+		margin:0 auto;*/
+		border-top:10px solid transparent;
+		border-bottom:10px solid #f2f2f2;
+		border-right:10px solid transparent;
+		border-left:10px solid transparent;
+	}
+	.sort_date a,.sort_infer_bias_via a,.sort_asc_desc a {
+		padding: 5px 7px 5px 0px;
+		font-size: 12px;
+	}
+	.welcome_head_content span{
+		font-size: 14px;
+	}
+	.single_post_title_section .post_title h4 a{
+		font-size: 15px;
+	}
+	.fancybox-wrap{
+		max-width: 100%;
+	}
+	#back-to-top{
+		bottom: 70px;
+		font-size: 22px;
+		height: 35px;
+		line-height: 32px;
+		right: 15px;
+		width: 35px;
+		z-index:9999;
+	}
+	.input_fields_wrap div.video_url{
+		margin-bottom: 15px;
+	}
+	.input_fields_wrap div.video_url textarea{
+		width: 100%;
+		margin-right:0px;
+		margin-bottom: 5px;
+	}
+	.post_heade_edit_action > a{
+		float:none;
+	}
+	.post_heade_edit_action .post_cat_view_popup{
+		/*width: 40px;*/
+		float:none;
+		margin-top:0px;
+	}
+	.login_user {
+		margin-right: 10px;
+	}
+	.list_of_post_content_section .new_section{
+		display: none;
+	}
+	.post_cat_image_modal ul li .filter_post_img a label{
+		font-size: 12px;
+		font-weight:700;
+	}
+	.filter_post_img #cat_history label,
+	.filter_post_img #cat_pop-culture label{
+		min-height: 30px;
+	}
+	#cat_other-info{
+		margin-top: 50px;
+	}
+	/*ul.ui-autocomplete{
+		max-width: 280px;
+	}*/
+	.about_us_link.hide-767{
+		display: none;
+	}
+	ul.my_account li.menu_about{
+		display: none;
+	}
+	.flag_popup_content{
+		width: 95%;
+	}
+	.home_content_section .post_content{
+		padding: 0px;
+	}
+	.home_content_section .post_content > div{
+		padding: 10px;
+		display:table;
+		width:100%;
+	}
+	/*.home_content_section .post_content .post_title h4 a,
+	.home_content_section .post_content .post_content_title h3 a{
+		word-break: break-all;
+	}*/
+	.uploadArea h1{
+		left: 0;
+		right: 0;
+	}
+	.uploadArea h1.title{
+		font-size: 16px;
+	}
+	.mce-container.mce-panel button{
+		width: auto !important;
+	}
+	.home_content_section .ajax_filter_content .post_filter_text{
+		min-height: 1px;
+	}
+	.login_user,
+	.header_right ul.my_account {
+		/*display: inline-block;
+		text-align: center;*/
+	}
+	.wiki_topbar_right{
+		padding: 0px;
+		margin:0px;
+		border:none;
+	}
+	/*.home .wiki_topbar_right{
+		border-top: 1px solid #e4e4e4;
+		padding-top:10px;
+		margin-top:10px;
+		padding-bottom:10px;
+	}*/
+	footer{
+		position: fixed;
+		bottom:0px;
+		background:#FFF2DB;
+		border-top:1px solid #aaaaaa;
+		left:0px;
+		padding:15px;
+		z-index:999999999;
+		/*display:none;*/
+	}
+	.footer_links ul{
+		margin-top: 0px;
+		padding-right:0;
+	}
+	.header_advertisement_logo {
+		display:none;
+	}
+	.footer_links ul{
+		padding-right: 0px;
+	}
+	.footer_links ul li a{
+		font-weight: 700;
+	}
+	.header_advertisement_logo{
+		margin-left: 10px;
+		top:-2px
+	}
+	.page-login .home_head_content{
+		display: none;
+	}
+	body{
+		padding-bottom: 80px;
+	}
+	.post_single_heade_edit_action .post_single_cat_view_popup,
+	.post_single_heade_edit_action a{
+		width: 45px;
+	}
+	.home .header_left_content .wiki_topbar_right.hide-767{
+		 /*EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION */
+		/*display: none;*/
+	}
+	.home .post_filter_text.wiki_topbar_right.show-767{
+		display: block;
+
+	}
+	/*.home .post_filter_text .wiki_topbar_right ul{
+		width: 84%;
+	}*/
+	.home .post_filter_text .wiki_topbar_right span.random_list{
+		display: inline-block;
+		vertical-align:middle;
+	}
+	.home .post_filter_text .wiki_topbar_right span.random_list a{
+		display: block;
+		width:30px;
+	}
+
+	/*.logged-in .header_right ul li a:before{
+		content:"( ";
+		position: absolute;
+		left:-5px;
+		top:2px;
+	}
+	.logged-in .header_right ul li a:after{
+		content:" )";
+		position: absolute;
+		right:5px;
+		top:2px;
+	}*/
+
+
+	/*.single-post .home_head_content,*/
+	.page-login .header_right{
+		display: none;
+	}
+	.post_share_section > a{
+		vertical-align: -4px;
+	}
+	.home .home_head_content .header_left_content_inner,
+	.home .home_head_content .header_right_content{
+		display: block;
+		text-align: center;
+	}
+	/*.page-my-posts .home_head_content .welcome_head_content,
+	.single-post .home_head_content .welcome_head_content,
+	.page-about-us .home_head_content .welcome_head_content,
+	.page-privacy-policy .home_head_content .welcome_head_content{
+		padding-right:65px;
+	}*/
+	/*.post_single_filter_text{
+		display:block;
+		padding:0px;
+		background: none;
+		border:none;
+		position:absolute;
+		right:0px;
+		top:49%;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		width:100%;
+		z-index:-1;
+	}*/
+	/*.post_single_filter_text .post_single_heade_edit_action .post_single_cat_view_popup,
+	.post_single_filter_text .post_single_heade_edit_action a{
+		width: 30px;
+		margin-left:0px;
+	}
+	.post_single_filter_text .post_single_heade_edit_action{
+		margin-right: 7px;
+	}*/
+	.header_left_content {
+		 padding: 17px 15px 10px;
+	}
+	.home .home_head_content .header_right_content{
+		display: none;
+	}
+	.sort_section{
+		padding: 0px;
+	}
+	.home .header_left_content {
+		border-right-width: 0;
+		width: 100%;
+	}
+	.page-about-us .content > h2{
+		display: none;
+	}
+	/*.post_cat_image_modal ul#menu-popup-menu-2 li.popup_list_cat_image:last-child label {
+		margin-top: 1px;
+		font-size: 12px;
+	}*/
+	.post_share_icons{
+		width: 135px;
+	}
+	.post_share_section{
+		right:0px;
+	}
+	.home_content_section .post_content .post_add_edit_section a.pop_edit_text {
+		width:60px;
+	}
+	.wiki_center_section {
+		padding:0px;
+	}
+	.post_cat_image_modal span a {
+		width: auto !important;
+	}
+	.input_bg {
+		float:right;
+		width:96%;
+	}
+	.share_post_email_fields label,
+	.share_post_email_fields textarea {
+		width:56px;
+	}
+	.delete_account_popup_btn {
+		top:26px;
+	}
+	.post_share_icons {
+		right:-125px;
+	}
+	.page-privacy-policy .content_wrapper {
+		margin-bottom:0px;
+	  }
+	  .logged-in .header_right ul li a{
+		text-decoration: none;
+	}
+	.page-template-my-profile .filter_post_img {
+		display:none;
+	}
+	.feed_post_refer_link {
+		padding-right:7px;
+	}
+	/*.post_share_icons a.crunchify-link.crunchify-whatsapp {
+		background:url(../images/whatsapp.png) no-repeat center center;
+		width:35px;
+		height:35px;
+	}*/
+	/*.post_share_icons a.crunchify-link.crunchify-commenting {
+		background-color:#000 !important;
+		font-size: 14px;
+	}*/
+	.single.single-post .post_share_icons a{
+		margin-right: 3px;
+	}
+	.crunchify-commenting i {
+		display:block;
+		margin-top:7px;
+	}
+	.post_share_icons {
+		right:-208px;
+	}
+	.post_share_icons {
+		width: 140px;
+	}
+	.post_refer_link {
+		display: inline;
+	}
+	.page-login .wiki_topbar_right.search_push_header_footer {
+		/*EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION */
+		/*display:none !important;*/
+	}
+	.page-login header {
+		min-height: 100px;
+	}
+	body.page-login {
+		min-height:300px;
+	}
+	body.page-login .content_wrapper .content h2 {
+		display:none;
+	}
+	body.page-login .content_wrapper .content .entry .wppb-user-forms {
+		padding: 0px;
+	}
+	body.page-sign-up .wiki_topbar_right.search_push_header_footer {
+		/*EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION */
+		/*display:none !important;*/
+	}
+	body.page-sign-up .header_right {
+		display:none;
+	}
+	.page-sign-up header {
+		min-height: 100px;
+	}
+	.page-sign-up .content > h2 {
+		font-size:23px;
+	}
+	.page-sign-up .content_wrapper.hdtopmargin .content .entry #register {
+		padding-top:0px !important;
+	}
+	.page-sign-up .form-group {
+		margin: 0 !important;
+	}
+	.g-recaptcha {
+		margin-top:15px !important;
+		transform: scale(0.88);
+		-webkit-transform: scale(0.88);
+		-moz-transform: scale(0.88);
+		-ms-transform: scale(0.88);
+		transform-origin: 0 0 0;
+		-webkit-transform-origin: 0 0 0;
+		-moz-transform-origin: 0 0 0;
+		-ms-transform-origin: 0 0 0;
+		padding-left:0px;
+	}
+	.share_post_email_wrapper .g-recaptcha {
+		padding-left:120px;
+	}
+	.g-recaptcha > div {
+		width:100% !important;
+	}
+	.g-recaptcha iframe {
+		max-width:inherit;
+	}
+	body.page-my-profile .wiki_topbar_right.search_push_header_footer {
+		/*EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION */
+		/*display:none !important;*/
+	}
+	body.page-my-profile .header_right {
+		display:none;
+	}
+	body.page-my-profile header {
+		min-height: 100px;
+	}
+	body.page-my-profile .post_view_content_head {
+		clear: none;
+		display: inherit;
+		margin-bottom: 0;
+		position: relative;
+		text-align: center;
+		top: -54px;
+		width: auto;
+		z-index:9;
+	}
+	body.page-my-profile .post_cat_image_modal {
+		float:right;
+		margin-top: 75px;
+	}
+	body.page-my-profile .post_cat_image_modal::after {
+		top: 56px;
+	}
+	.myprofile_form_content {
+		position:relative;
+	}
+	/*.home_content_section .post_content .post_title h4,
+	.home_content_section .post_content .post_content_title h3 {
+		display:block;
+	}*/
+	.footer_links ul li {
+		margin:0 8px 0 2px;
+	}
+	body.page-template-default .wiki_topbar_right.search_push_header_footer {
+		/*EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION EDITED SECTION */
+		/*display:none !important;*/
+	}
+	body.page-template-default .header_right {
+		display:none;
+	}
+	body.page-about .header_right {
+		display:block;
+	}
+	/*body.page-about .hdtopmargin .entry img {
+		display:none;
+	}*/
+	body.page-about  .hdtopmargin {
+		margin-top:120px;
+	}
+	body.page-template-default .content_wrapper h2 {
+		font-size:23px;
+		margin-bottom:6px;
+		padding-bottom:3px;
+	}
+	body.page-template-default header {
+		min-height: 100px;
+	}
+	body.page-forgot-password {
+		min-height: 460px;
+	}
+	.deleted_account_message {
+		font-size:13px;
+	}
+	.fancybox-image {
+		max-height:auto !important;
+		max-width:auto !important;
+	}
+	.fancybox-image {
+		height:auto !important;
+		width: auto !important;
+	}
+	/*#loginform > a {
+		float:right;
+	}*/
+	#signup_action {
+		float:left !important;
+	}
+	.content #wppb_general_top_error_message,
+	.content .wppb-error,
+	.content .wppb-warning {
+		margin:10px 0px 15px !important;
+	}
+	/*body.page-template-my-profile .content.profile_page {
+		margin-bottom:5px !important;
+	}*/
+	body.page-template-my-profile {
+		padding-bottom:0px;
+		min-height:378px;
+	}
+	body.page-template-my-profile .content_wrapper {
+		margin-top:200px !important;
+	}
+	.share_post_email_fields {
+		padding: 15px;
+	}
+	.post_share_via_email_content {
+		display:inline-block;
+		padding:0px;
+		background-color: rgb(249, 249, 249);
+	}
+	.post_voting_section ul {
+		display:inline-block;
+	}
+	.updated_user_section {
+		display: inherit;
+		margin:0px 0px 10px;
+		text-align: right;
+	}
+	div[id*="flag_post_report_"], div[id*="flag_as_duplicate_report_"], div[id*="flag_advertisement_post_report_"] {
+		margin-bottom:5px;
+	}
+	.fancybox-close {
+		width:15px !important;
+		height:15px !important;
+	}
+	.hdtopmargin {
+		margin-top:192px;
+	}
+	body.page-about .hdtopmargin {
+		margin-top:192px;
+	}
+	.home .hdtopmargin {
+		margin-top:240px;
+	}
+	.fancybox-nav.fancybox-prev span {
+		left: 30px !important;
+	}
+	.fancybox-nav.fancybox-next span {
+		right: 30px !important;
+	}
+	.post_refer_link {
+		display:inline-block;
+	}
+	.post_share_icons a.crunchify-link.crunchify-whatsapp {
+		background-image:url(../images/whatsup_icon.png);
+		visibility:visible;
+	}
+	.post_share_icons a.crunchify-link.crunchify-commenting {
+		background-image:url(../images/sms_icon.png);
+		visibility:visible;
+	}
+	.footer_links ul li a {
+		font-size:15px;
+	}
+	.post_share_icons {
+		width:200px;
+	}
+	.single.single-post .post_share_icons a.crunchify-whatsapp {
+		margin-left:5px;
+	}
+	.welcome_head_content span {
+		font-size: 21px;
+	}
+	.header_left_content_inner .header_title_text {
+		font-size:36px;
+	}
+	body.error404 {
+		padding-bottom:0px;
+	}
+	body.page-about {
+		padding-bottom:0px;
+	}
+	.flag_as_approperiate_ad_section {
+		float: left;
+		padding-top: 35px;
+	}
+	.flag_edit_sec {
+		float:none;
+		margin-top:10px;
+	}
+	.post_terms ul.tags {
+		display:none !important;
+	}
+	p.dates_ago {
+		font-size:16px !important;
+	}
+	.feed_post_refer_link h4 {
+		font-size:18px !important;
+	}
+	.home_content_section .post_content p {
+		font-size:17px;
+	}
+	/*NEW CODE NEW CODE NEW CODE NEW CODE*/
+
+	.wiki_center_section {
+	    left: 0%;
+	}
+
+}
+
+@media only screen and (max-width: 500px){
+	.hide-500{
+		display:none;
+	}
+	.show-500{
+		display:block;
+	}
+}
+@media only screen and (max-width: 767px){
+	.hide-767{
+		display: none !important;
+	}
+	p.dates_ago {
+		font-size:10px !important;
+	}
+	.feed_post_refer_link h4 {
+		font-size: 14px !important;
+	}
+	.updated_user > p {
+		font-size:14px !important;
+	}
+	.home_content_section .post_content p {
+		font-size:16px;
+	}
+	.home .header_left_content {
+		border-right-width: 0px;
+		/*border-bottom-width: 1px;*/
+		width: 100%;
+	}
+	.home .header_right_content{
+		width: 100%;
+	}
+	.home .welcome_head_content .header_right_content .post_count{
+		display: block;
+	}
+	#check_password_popup{
+		padding: 0px;
+	}
+	.form_check_pass_hyroglf{
+		margin-top: 100px;
+	}
+	.post_share_section,
+	.single .post_share_section{
+		position:relative;
+		right:auto;
+		top:auto;
+		float: left;
+	}
+	.hdtopmargin{
+		margin-top: 200px;
+	}
+	.post_cat_image_modal span {
+		font-size: 12px;
+		margin: 0px 8px 10px 0px;
+		width: 31%;
+		float: left;
+	}
+	.post_cat_image_modal span:nth-child(3n+3) {
+		margin-right: 0;
+		float:right;
+	}
+	#myprofile_field::before,
+	#myprofile_posts::before,
+	#myprofile_votes::before {
+		height:60px;
+		width:60px;
+	}
+	.post_terms {
+		display: block;
+		vertical-align: middle;
+		margin:0px;
+	}
+	.post_share_section, .single .post_share_section {
+		float:left;
+		/*width:138px;*/
+		width:100%;
+		position:relative;
+		display:inline-block;
+	}
+	.post_share_icons {
+		position: static;
+		right: 0;
+		top: 0;
+		width:100%;
+	}
+	.post_share_icons a {
+		width:28px;
+		height:28px;
+	}
+	.post_share_icons a#share_post_email {
+		margin-right:9px;
+	}
+	.post_share_icons a i {
+		margin-top:-4px;
+	}
+	.post_share_icons a.crunchify-link.crunchify-whatsapp {
+		background-image:url(../images/whatsup_icon.png);
+		visibility:visible;
+	}
+	.post_share_icons a.crunchify-link.crunchify-commenting {
+		background-image:url(../images/sms_icon.png);
+		visibility:visible;
+	}
+	.post_share_icons a {
+		margin-right:2px;
+	}
+	.single.single-post .post_share_icons a {
+		margin-right: 8px;
+	}
+	.single.single-post .post_share_icons a#share_post_email {
+		margin-right:10px;
+	}
+	/*.home_content_section .post_content .list_post_content ul {
+		width:100% !important;
+	}
+	.home .bx-viewport ul li {
+		width:100% !important;
+	}*/
+	.delete_account_popup_btn {
+		position:static;
+		text-align:center !important;
+	}
+	.source_published_single,
+	.tags_single {
+		display:none !important;
+	}
+	.page-my-profile .post_cat_image_modal {
+		margin-top: 19px;
+		width: 100%;
+	}
+	/*.post_cat_image_modal::after {
+		left:inherit;
+		right: 10px;
+		top: 0;
+	}*/
+	.wiki_wrapper {
+		display:block;
+	}
+	.home_content_section .post_content {
+		display:block;
+	}
+	.bx-wrapper .bx-controls-direction a {
+		/*display:none;*/
+	}
+	header {
+		min-height:150px;
+	}
+	.logo {
+		margin-bottom:10px;
+	}
+	.fancybox-skin {
+		padding:0px !important;
+	}
+	.fancybox-outer .fancybox-next {
+		right: auto !important;
+    	left: 57px;
+	}
+	.fancybox-outer .fancybox-prev {
+		left: 20px !important;
+		right: auto !important;
+		top: -38px !important;
+	}
+	.fancybox-nav {
+		width:auto !important;
+		top:-36px !important;
+		height: auto !important;
+	}
+	.fancybox-wrap {
+		width:100% !important;
+		left:0px !important;
+	}
+	.fancybox-image {
+		max-height:inherit !important;
+		height:auto !important;
+	}
+	.fancybox-nav.fancybox-next span {
+		background-size: cover;
+		background-position: 0 0 !important;
+	}
+	.fancybox-nav.fancybox-prev span {
+		background-size: cover;
+		background-position: 0 0 !important;
+		height: 42px;
+    	width: 41px;
+	}
+	.fancybox-close {
+		right: 10px !important;
+    	top: -38px !important;
+	}
+	.post_share_section > a {
+		display:none;
+	}
+	.post_share_icons {
+		left:0px;
+		padding-left:0px;
+		top:-10px;
+	}
+	.form-group span {
+		position: relative;
+		right: -2px;
+		top: 3px;
+	}
+	.myprofile_form_content {
+		font-size:26px;
+	}
+	.myprofile_form_content a {
+		font-size:14px;
+	}
+	.profile_page.content > h2 {
+		font-size:30px;
+	}
+	body.page-my-profile .content_wrapper .filter_cat_popup_action {
+		max-width: 40px !important;
+	}
+	body.page-my-profile .post_view_content_head {
+		top:-44px;
+	}
+	body.page-my-profile .home_content_section.my-profile {
+		padding-bottom: 0;
+	}
+	body.page-my-profile .post_cat_image_modal {
+		margin-top:62px;
+	}
+	body.page-my-profile .post_cat_image_modal::after {
+		top: 43px;
+	}
+	/*body.page-my-profile .post_cat_image_modal span:nth-child(3) {
+		width:100%;
+	}*/
+	.share_post_email_fields label, .share_post_email_fields textarea {
+		width:100%;
+		padding:0px;
+		margin:0px;
+		font-size:14px;
+	}
+	.input_bg {
+		width:100% !important;
+		float:none;
+		padding-left:0px;
+	}
+	.g-recaptcha {
+		padding-left:0px;
+		margin-top:12px !important;
+	}
+	.share_post_email_fields input {
+		margin-bottom:6px;
+	}
+	/*.post_share_via_email_content{
+		display:inline-block;
+	}*/
+	.share_post_email_fields > a {
+		margin-top:6px;
+	}
+	.fancybox-opened {
+		padding:0px 10px !important;
+	}
+	.myprofile_form_content p {
+		clear:none;
+	}
+	.post_cat_image_modal span a {
+		float:none !important;
+	}
+	.profile_page {
+		margin-bottom:5px;
+	}
+	body.page-template-my-profile .page-wrapper.blur-it .content.profile_page {
+		margin-bottom: 40px;
+	}
+	body.page-template-my-profile .content_wrapper {
+		margin-top:96px !important;
+	}
+	.fancybox-outer:hover .fancybox-nav {
+		display:none;
+	}
+	.content_wrapper {
+		margin-top:180px;
+	}
+	.page-login .content_wrapper {
+		margin-top:112px;
+	}
+	.single_post_title_section .post_title > img, .post_fav_icons {
+		 margin-right: -50px;
+    	width: 45px;
+	}
+	.feed_post_refer_link {
+		padding-left: 50px;
+	}
+	.fancybox-skin {
+		background:none !important;
+	}
+	.home_content_section .post_content .post_add_edit_section a.view_list_post,
+	.home_content_section .post_content .post_add_edit_section a.pop_edit_text,
+	.home_content_section .post_content .post_add_edit_section a.close_list_post, {
+		width:40px;
+	}
+	.home_content_section .post_content .post_title h4, .home_content_section .post_content .post_content_title h3 {
+		display:inline;
+	}
+	.home_content_section .post_content .post_title h4 {
+		display:block;
+	}
+	.post_refer_link {
+		display:inline-block;
+	}
+	.body_fancybox_open {
+		position:relative;
+	}
+	.body_fancybox_open .fancybox-wrap {
+		position:fixed !important;
+		top:50% !important;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+	}
+	.post_cat_image_modal ul,
+	ul#menu-pop-menu-3 {
+		width: 31% !important;
+		margin: 0 1% !important;
+	}
+	.error404 .post_content.post- h2 {
+		font-size: 18px;
+	}
+	.fancybox-outer .fancybox-image {
+		max-height:480px !important;
+		margin:0 auto;
+	}
+	.fancybox-skin {
+		 box-shadow: none !important;
+	}
+	.hdtopmargin {
+		margin-top:170px;
+	}
+	.page-about-us .entry ul {
+		margin-bottom:0px;
+	}
+	.page-about-us .entry p:first-child {
+		display:none;
+	}
+	.post_new_and_edit_section {
+		display:none;
+	}
+	.share_post_email_content .g-recaptcha {
+		padding-left:0px;
+	}
+	.fancybox-inner {
+		width:100% !important;
+		overflow:hidden !important;
+	}
+	.informative_vote_results li b,
+	.informative_vote_results li a,
+	.informative_vote_results li span b,
+	.post_voting_section ul li b,
+	.post_voting_section ul li {
+		font-size:12px !important;
+	}
+	.post_voting_section > div {
+		min-width:234px;
+	}
+	.post_voting_section, .post_rating_before_signin {
+		right:0px;
+	}
+	.post_content .list_post_content #flag_post,
+	.post_single_content_section #flag_post {
+		/*font-size:12px !important;*/
+	}
+	.fancybox-inner {
+		height:auto !important;
+	}
+	body.page-sign-up .form-group > label {
+		display: none !important;
+	}
+	.page-sign-up .form-group {
+		padding:5px 0px;
+	}
+	.page-sign-up .hdtopmargin  {
+		margin-top:101px;
+	}
+	.home_content_section .post_content > div {
+		display:inline-block;
+	}
+	.home_content_section .post_content .post_title h4 a, .home_content_section .post_content .post_content_title h3 a {
+		word-wrap:break-word;
+	}
+	.fp_success_msg, .success_msg, .error_msg, #error_msg {
+		margin-bottom:0px;
+	}
+	.fancybox-lock footer {
+		z-index:99;
+	}
+	.share_mail_status {
+		padding:10px 10px 0;
+	}
+	.post_share_icons a i {
+		font-size:34px;
+	}
+	.share_post_email_fields > a {
+		margin-bottom:15px;
+	}
+	.error404 .post_content img {
+		width:100%;
+	}
+	.error404 .hdtopmargin {
+		margin-top:150px;
+	}
+	.hdtopmargin {
+		margin-top:107px;
+	}
+	body.page-about .hdtopmargin {
+		margin-top:107px;
+	}
+	.home .hdtopmargin {
+		margin-top:180px;
+	}
+	.share_post_email_fields .mail_sent_button {
+		margin:5px 0px 0px;
+		display:block;
+		float:none;
+	}
+	.bias_drop_down_sort {
+		width:42%;
+	}
+	.infor_drop_down_sort_section {
+		width:55%;
+	}
+	.sort_drop_down_action {
+		padding-left:55px;
+	}
+	.post_single_content_section.show-767 .updated_user_section {
+		margin-top:0px;
+	}
+	.home_content_section .post_content .post_add_edit_section a.view_list_post,
+	.home_content_section .post_content .post_add_edit_section a.pop_edit_text,
+	.home_content_section .post_content .post_add_edit_section a.close_list_post {
+		width:38px;
+	}
+	.desktop_edit .single_edit_icon {
+		display:none;
+	}
+	.mobile_edit span.single_edit_icon a.pop_edit_tex {
+		display: block !important;
+	}
+	.updated_user_section .updated_user {
+    	margin: 7px 2px 20px 0;
+	}
+	body.single-post .updated_user_section {
+		/*margin-bottom:-35px;*/
+		width:100%
+	}
+	.flag_as_approperiate_ad_section{
+		margin-top: -42px;
+		width: 100%;
+		display: block;
+		float: left;
+		padding-right: 45px;
+		padding-top:0px;
+		font-size:13px;
+	}
+	footer.fancybox-margin .footer_links {
+		margin-left: 0px;
+	}
+	header.makefixed.fancybox-margin {
+		left:0px;
+	}
+	.share_post_email_fields .mail_sent_button {
+		padding-left:0px;
+	}
+	.content li:last-child {
+		padding-bottom:0px;
+	}
+	.add_new_select_category ul li:last-child {
+		padding-bottom:6px;
+	}
+	.wpcf7-response-output {
+		text-align:center;
+	}
+	.updated_user_section {
+		width:100%;
+	}
+	div.pp_pic_holder {
+		width:80% !important;
+		left:0px !important;
+		right:0px !important;
+		margin:0 auto;
+	}
+	.pp_hoverContainer {
+		width: 100% !important;
+		padding:0px 20px !important;
+		left:0px !important;
+		right:0px !important;
+		margin:0 auto !important;
+		top: 50% !important;
+	    transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+	}
+	.pp_content {
+		width:100% !important;
+		height:auto !important;
+	}
+	#pp_full_res img {
+		width:100% !important;
+		height:auto !important;
+	}
+	.pp_bottom {
+		height:auto !important;
+	}
+	.pp_bottom .pp_middle,
+	.pp_bottom .pp_left,
+	.pp_bottom .pp_right {
+		height:43px !important;
+	}
+	div.light_square .pp_details {
+		z-index:9 !important;
+		width:100% !important;
+	}
+	.pp_gallery {
+		display:none !important;
+	}
+	iframe {
+		max-width: 100%;
+		width: 100% !important;
+		height: auto !important;
+	}
+	.g-recaptcha iframe {
+		height:78px !important;
+	}
+	.pp_next,
+	.pp_previous {
+		display:none !important;
+	}
+	.share_post_email_content .g-recaptcha {
+		width:305px;
+		margin:0 auto;
+		display:block;
+	}
+	.post_edit_success {
+		margin-bottom:15px;
+	}
+	.fancybox-nav {
+		display:block !important;
+	}
+	.fancybox-nav.fancybox-next span {
+		right: 0px !important;
+	}
+	.fancybox-nav.fancybox-prev span {
+		left: 0px !important;
+	}
+	.fancybox-outer .fancybox-prev {
+		left:0px !important;
+	}
+	.fancybox-outer .fancybox-next {
+		left:70px;
+	}
+	.video_container {
+		position:relative !important;
+		padding-bottom:56.25% !important;
+		height:0px !important;
+		width:100% !important;
+	}
+	.video_container iframe {
+		position:absolute;
+		left:0px;
+		top:0px;
+		bottom:0px;
+		right:0px;
+	}
+	.fancybox-iframe {
+		height: 100% !important;
+		width: 100% !important;
+	}
+	.feed_post_refer_link {
+		margin-bottom:0px !important;
+	}
+	.footer_links ul li a {
+		font-size:11px;
+	}
+
+	body.error404 header {
+		min-height: 130px;
+	}
+	body.error404 .error404 .hdtopmargin {
+		margin-top: 130px;
+	}
+	.error404 .post_content.post- {
+		text-align: center;
+		padding: 20px 10px 10px !important;
+	}
+	#flag_post, .clear_favorites {
+		padding:7px 8px;
+	}
+	/*body.page-about .content img {
+		display:none;
+	}*/
+	body.page-about .content {
+		padding:0px 10px;
+	}
+	body.page-about .content li {
+		padding-bottom:2px;
+	}
+	.flag_popup_content {
+		transform: none;
+		-webkit-transform: none;
+		-moz-transform: none;
+		-ms-transform: none;
+		top:50px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 639px) {
+	.home_content_section .ajax_filter_content .post_filter_text h3{
+		font-size:25px;
+	 }
+	.home_content_section .post_content .post_title h4,
+	.home_content_section .post_content .post_content_title h3,
+	.content p,
+	 body{
+		font-size: 14px;
+	}
+	.content p {
+		line-height:1.5;
+	}
+	.content li {
+		line-height:1.5;
+		padding-bottom:5px;
+	}
+	.post_content_title {
+    	width:87%;
+	}
+	.barChart__row {
+		width: 90% !important;
+	}
+	.barChart__label {
+		width: 76px !important;
+	}
+	.barChart__value {
+		width: 0 !important;
+	}
+	.barChart__bar {
+		width:170px !important;
+	}
+	.my_account li:hover > ul{
+		top: 16px;
+	}
+	fieldset.frontier_post_fieldset_tax,
+	.additional_category_field{
+		width: 100% !important;
+	}
+	.post_new_and_edit_section .single_page_pencil_icon_left,
+	.post_new_and_edit_section .single_page_header_content {
+		display:inline-block;
+		float: none;
+		vertical-align:middle;
+	}
+	.post_new_and_edit_section .single_page_header_content h3{
+		font-size: 20px;
+	}
+	.post_new_and_edit_section .single_page_add_icon_left {
+		float: none;
+		text-align: center;
+	}
+	.sign_up_updates{
+		display:none;
+	}
+	/*.single-post .wiki_wrapper .content_wrapper .wiki_right_top{
+		padding: 10px;
+		border: 1px solid #aaa;
+	}*/
+	.vote_result_section {
+		display:inline-block;
+	}
+	body.page-about {
+		min-height: auto;
+	}
+	.post_share_icons a i {
+		font-size:34px;
+	}
+	.sign_up_updates {
+		display:block;
+	}
+	body.page-about .content img {
+		margin: 8px 0;
+	}
+	.welcome_head_content span {
+		font-size: 14px;
+	}
+	.header_left_content_inner .header_title_text {
+		font-size:20px;
+	}
+	.updated_user {
+		display: inline-block;
+		text-align: right;
+		width: 100%;
+		margin: 22px 0px 12px;
+	}
+	div[id*="flag_post_report_"], div[id*="flag_as_duplicate_report_"], div[id*="flag_advertisement_post_report_"] {
+		margin-right: -2px;
+	}
+
+}
+@media only screen and (max-width: 480px) {
+
+	.post_cat_image_modal {
+		padding: 8px 5px;
+	}
+	.post_cat_image_modal ul, ul#menu-pop-menu-3 {
+		width: 31.3%;
+	}
+	.mce-window {
+		right:0px !important;
+		margin:0 auto !important;
+	}
+
+}
+
+@media only screen and (max-height: 480px) {
+	.fancybox-outer .fancybox-image {
+		max-height:340px !important;
+		margin:0 auto;
+	}
+	.fancybox-skin {
+		 box-shadow: none !important;
+	}
+	.mce-window {
+		overflow:scroll !important;
+		max-width:100% !important;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.random_list {
+		display: none;
+		visibility: hidden;
+	}
+	.post_single_content_section.show-767 .updated_user_section {
+		margin-top:-38px;
+	}
+
+	.home_content_section .ajax_filter_content .post_filter_text {
+    margin-top: -110px;
+}
+
+	#ocs-site > div > div.wiki_wrapper > div.ng-scope > div.wiki_content.wiki_center_section.hdtopmargin {
+		margin-top: 25% !important;
+		top: -150px;
+	}
+
+	div[id*="flag_post_report_"], div[id*="flag_as_duplicate_report_"], div[id*="flag_advertisement_post_report_"] {
+		margin-right:1px;
+	}
+
+	.ocs-trigger {
+		position: absolute;
+		background: transparent;
+		top: 120px;
+		opacity: 0.7;
+		font-size: 70%;
+	}
+
+	.logo {
+    width: 60%;
+    text-align: center;
+		margin-left: 0%;
+		margin-top: 5%;
+    margin-bottom: 15px;
+    max-width: 100%;
+    padding-right: 0px;
+}
+
+	.logo a {
+		position: absolute;
+		width: 70%;
+		left: 10%;
+		top: 6%;
+	}
+
+
+	.carousel ul {
+		display: none;
+		visibility: hidden;
+		height: 17em;
+		position: absolute;
+		left: 0%;
+		top: 80%;
+		width: 100%;
+		z-index: 999;
+	}
+
+.carousel-cell a {
+    font-size: 1.5em;
+    color: #666;
+    padding: 20%;
+}
+
+.login_user, .header_right ul.my_account {
+	display: inline-block;
+  width: 300px;
+}
+
+.header_right ul li a {
+	float: left;
+	width: 26%;
+	margin-left: -8%;
+}
+
+.header_right ul {
+	right: -30%;
+}
+
+.fa-edit:before, .fa-pencil-square-o:before {
+    content: "\f044";
+		font-size: 50%;
+}
+
+.fa-plus:before {
+    content: "\f067";
+		font-size: 50%;
+}
+
+.fa-remove:before, .fa-close:before, .fa-times:before {
+    content: "\f00d";
+		font-size: 50%;
+}
+
+.close_list_post a {
+		position: relative;
+		margin-top: -30em;
+}
+
+.wiki_topbar_right .search_push_header_footer,
+.wiki_topbar_right > ul,
+.search-form  {
+	list-style: none;
+	float: left;
+	margin-left: 8%;
+	margin-bottom: 10px;
+	/* width: 126%; */
+	/* padding-right: 40px; */
+	/* margin-right: -40px; */
+	width: 270px !important;
+	margin-top: 25%;
+}
+
+.post_view_content_head {
+    margin-bottom: -50px !important;
+    text-align: center;
+    position: relative;
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+#ocs-site > div > div.wiki_wrapper > header > div.logo > div.wiki_topbar_right.search_push_header_footer > span > a,
+span.random_list {
+	position: absolute;
+bottom: 10%;
+right: 15%;
+
+}
+
+.motto {
+  margin-top: 5% !important;
+}
+
+ .motto p {
+	margin-left: 0%;
+	margin-top: 4%;
+	font-size: 0.7em;
+	weight: 700;
+	color: #666;
+	line-height: 2px;
+	letter-spacing: 5px;
+	width:102%;
+ }
+
+ .carousel ul,
+ ul.carousel,
+ #ocs-site > div > div.wiki_wrapper > header > div.post_filter_text.header_bottom_logo_search > ul {
+	 display:none;
+	 visibility: hidden;
+ }
+
+ header .wiki_topbar_right {
+ 	border: none;
+ 	/*margin:0px;*/
+ 	padding:10px 0px;
+   margin-top: 33%;
+   width: 102%;
+   margin-left: -8%;
+ }
+
+ span.random_list {
+   margin-top: 6%;
+   margin-left: -4%;
+   position: absolute;
+	 top: 45%
+ }
+
+ ul.my_account.row > li:nth-child(1) > a {
+    left: -20%;
+}
+
+ul.my_account.row > li:nth-child(3) > a {
+    left: 70%;
+    margin-top: -6%;
+}
+
+
+}
+
+@media only screen and (max-device-width: 767px) and (orientation: landscape) {
+	 /*.logo a img {
+		max-width:40%;
+	 }*/
+	 header {
+		position:static;
+		min-height:inherit !important;
+	 }
+	 .hdtopmargin {
+		 margin-top:0px !important;
+	 }
+	 .carousel {
+    display: none;
+		visibility: hidden;
+}
+
+.logo a img {
+    max-width: 78%;
+    margin: 10px auto;
+}
+
+.wiki_topbar_right {
+    width: 179% !important;
+    border: none;
+    /* margin: 0px; */
+    padding: 10px 0px;
+    margin-top: 75% !important;
+    margin-left: 0% !important;
+}
+
+span.random_list {
+	margin-top: 0%;
+	margin-left: 40%;
+	position: absolute;
+}
+
+.home_content_section .post_content .post_add_edit_section a.view_list_post {
+	margin-right: 2em;
+}
+}

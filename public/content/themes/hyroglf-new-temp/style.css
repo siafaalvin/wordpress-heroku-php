@@ -1,0 +1,573 @@
+/*
+Theme Name: Hyroglf
+Description: A custom WP theme for Hyroglf
+Version: 1.0
+*/
+
+/*
+ Table Of Content:
+ 1) Fonts, General Styles
+ 2) Blog styles
+ --------------------------------*/
+
+/*
+1) Fonts, General Styles
+--------------------------------*/
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  /* Removes padding behaviour on widths */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+@font-face {
+    font-family:'DIN Light';
+    src: url('assets/fonts/DIN Light.eot');
+	src: url('assets/fonts/DIN Light.eot?#iefix') format('embedded-opentype'),
+		url('assets/fonts/DIN Light.woff2') format('woff2'),
+		url('assets/fonts/DIN Light.woff') format('woff'),
+		url('assets/fonts/DIN Light.ttf') format('truetype'),
+		url('assets/fonts/DIN Light.otf') format('opentype'),
+		url('assets/fonts/DIN Light.svg#DIN Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2219;
+}
+@font-face {
+    font-family:'DIN';
+    src: url('assets/fonts/DIN-Regular.eot');
+	src: url('assets/fonts/DIN-Regular.eot?#iefix') format('embedded-opentype'),
+		url('assets/fonts/DIN-Regular.woff2') format('woff2'),
+		url('assets/fonts/DIN-Regular.woff') format('woff'),
+		url('assets/fonts/DIN-Regular.ttf') format('truetype'),
+		url('assets/fonts/DIN-Regular.otf') format('opentype'),
+		url('assets/fonts/DIN-Regular.svg#DIN-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-FB02;
+}
+
+@font-face {
+    font-family: 'hagin_caps_mediumregular';
+    src: url('assets/fonts/hagin_caps_medium-webfont.eot');
+    src: url('assets/fonts/hagin_caps_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/hagin_caps_medium-webfont.woff2') format('woff2'),
+         url('assets/fonts/hagin_caps_medium-webfont.woff') format('woff'),
+         url('assets/fonts/hagin_caps_medium-webfont.ttf') format('truetype'),
+         url('assets/fonts/hagin_caps_medium-webfont.svg#hagin_caps_mediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'ico-hyroglf';
+  src:  url('assets/fonts/ico-hyroglf.eot?3qtkf');
+  src:  url('assets/fonts/ico-hyroglf.eot?3qtkf#iefix') format('embedded-opentype'),
+    url('assets/fonts/ico-hyroglf.ttf?3qtkf') format('truetype'),
+    url('assets/fonts/ico-hyroglf.woff?3qtkf') format('woff'),
+    url('assets/fonts/ico-hyroglf.svg?3qtkf#ico-hyroglf') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ico-hyroglf' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cat-phys-source:before {
+  content: "\e900";
+}
+.icon-cat-bio:before {
+  content: "\e902";
+}
+.icon-cat-pop:before {
+  content: "\e903";
+}
+.icon-cat-arts:before {
+  content: "\e904";
+}
+.icon-cat-health:before {
+  content: "\e905";
+}
+.icon-cat-news:before {
+  content: "\e906";
+}
+.icon-cat-hist:before {
+  content: "\e907";
+}
+.icon-cat-tech:before {
+  content: "\e908";
+}
+.icon-cat-econ:before {
+  content: "\e909";
+}
+.icon-cat-pol:before {
+  content: "\e90a";
+}
+.icon-cat-sport:before {
+  content: "\e901";
+}
+.icon-sketch:before {
+  content: "\e600";
+}
+.icon-search:before {
+  content: "\e601";
+}
+.icon-caret-down:before {
+  content: "\e602";
+}
+.icon-caret-up:before {
+  content: "\e603";
+}
+.icon-email:before {
+  content: "\e604";
+}
+.icon-google:before {
+  content: "\e606";
+}
+.icon-heart:before {
+  content: "\e607";
+}
+.icon-linkedin:before {
+  content: "\e608";
+}
+.icon-lock:before {
+  content: "\e609";
+}
+.icon-logo:before {
+  content: "\e60a";
+}
+.icon-pen:before {
+  content: "\e60b";
+}
+.icon-tag:before {
+  content: "\e60c";
+}
+.icon-thunderbolt:before {
+  content: "\e60d";
+}
+.icon-time:before {
+  content: "\e60e";
+}
+.icon-twitter:before {
+  content: "\e60f";
+}
+.icon-user:before {
+  content: "\e610";
+}
+.icon-play:before {
+  content: "\e611";
+}
+.icon-edit:before {
+  content: "\e613";
+}
+.icon-pause:before {
+  content: "\e614";
+}
+.icon-volume-mute:before {
+  content: "\e615";
+}
+.icon-volume-low:before {
+  content: "\e616";
+}
+.icon-volume-high:before {
+  content: "\e617";
+}
+.icon-volume-mid:before {
+  content: "\e618";
+}
+.icon-spinner5:before {
+  content: "\e619";
+}
+.icon-arrow-right:before {
+  content: "\e61a";
+}
+.icon-user-minus:before {
+  content: "\e974";
+}
+.icon-pie-chart:before {
+  content: "\e99a";
+}
+.icon-bookmark:before {
+  content: "\e9d2";
+}
+.icon-bookmarked:before {
+  content: "\e9d3";
+}
+.icon-add:before {
+  content: "\ea0a";
+}
+.icon-close:before {
+  content: "\ea0f";
+}
+
+
+/* CUSTOMIZE THIS */
+body {
+  /*font-family:'Lato', Arial, sans-serif;*/
+  font-family:'DIN';
+  font-size: 13px;
+  line-height: 1.4;
+  min-height:651px;
+  color: #666;
+  background: #FFF2DB;
+
+	/*background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,242,219,1) 18%, rgba(255,242,219,1) 68%, rgba(255,242,219,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(18%, rgba(255,242,219,1)), color-stop(68%, rgba(255,242,219,1)), color-stop(100%, rgba(255,242,219,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,242,219,1) 18%, rgba(255,242,219,1) 68%, rgba(255,242,219,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,242,219,1) 18%, rgba(255,242,219,1) 68%, rgba(255,242,219,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,242,219,1) 18%, rgba(255,242,219,1) 68%, rgba(255,242,219,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,242,219,1) 18%, rgba(255,242,219,1) 68%, rgba(255,242,219,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fff2db', GradientType=0 );*/
+
+}
+body::after{
+	display:table;
+	clear:both;
+	content:" ";
+}
+a {
+  color: #36b;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #36b;
+  /* text-decoration: underline; */
+}
+a:focus {
+  outline: 0;
+}
+h1,.h1 {
+  font-size: 48px;
+}
+h2,.h2 {
+  font-size: 36px;
+}
+h3,.h3 {
+  font-size: 30px;
+}
+h4,.h4 {
+  font-size: 24px;
+}
+h5,.h5 {
+  font-size: 20px;
+}
+h6,.h6 {
+  font-size: 18px;
+}
+p {
+  margin: 0 0 20px;
+}
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 0;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: #d2d1cf;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #d2d1cf;
+  opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #d2d1cf;
+  opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #d2d1cf;
+}
+blockquote {
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  font-style:italic;
+  font-size:18px;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size:60px;
+  line-height: 0.1em;
+  margin-right:15px;
+  vertical-align: -0.4em;
+}
+blockquote:after {
+    color: #ccc;
+    content: close-quote;
+    font-size: 60px;
+    line-height: 0.1em;
+    margin-left: 10px;
+    vertical-align: -34px;
+}
+input[type="text"],input[type="email"],
+input[type="password"]{
+	height:35px;
+	padding:0px 7px;
+	width:50%;
+}
+select {
+    height: 35px;
+}
+/* /CUSTOMIZE THIS */
+
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+.text-nowrap {
+  white-space: nowrap;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+.clearfix {
+  clear: both;
+}
+img {
+  vertical-align: top;
+}
+input[type=submit],input[type=button]{
+	-webkit-appearance: none;
+}
+.fa {
+  display: inline-block;
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fatop {
+  vertical-align: top;
+}
+.fa-caret-right:before {
+  content: "\f0da";
+}
+.fa-comments:before {
+  content: "\f086";
+}
+.fa-twitter:before {
+  content: "\f099";
+}
+.fa-facebook:before {
+  content: "\f09a";
+}
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+.fa-clock-o:before {
+  content: "\f017";
+}
+.fa-angle-double-right:before {
+  content: "\f101";
+}
+.fa-arrow-up:before {
+  content: "\f062";
+  color: #2bb673;
+}
+.fa-arrow-down:before {
+  content: "\f063";
+  color: #e90000;
+}
+.fa-angle-right:before {
+  content: "\f105";
+  margin: 0 2px;
+}
+.fa-envelope:before {
+  content: "\f0e0";
+}
+.fa-mobile-phone:before,
+.fa-mobile:before {
+  content: "\f10b";
+}
+
+
+/*
+2) Blog Styles
+--------------------------------*/
+/* Alignment */
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+}
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.5em;
+}
+.aligncenter {
+    clear: both;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Content */
+.hentry {
+    margin: 20px 0 20px;
+	padding-bottom:20px;
+	border-bottom: solid 1px #eee;
+}
+.entry-meta {
+    clear: both;
+}
+.byline {
+    display: none;
+}
+.single .byline,
+.group-blog .byline {
+    display: inline;
+}
+.entry-content,
+.entry-summary {
+    margin: 1.5em 0 0;
+}
+.page-links {
+    clear: both;
+    margin: 0 0 1.5em;
+}
+
+blockquote.left {
+	margin-right: 20px;
+	text-align: right;
+	margin-left: 0;
+	width: 33%;
+	float: left;
+}
+blockquote.right {
+	margin-left: 20px;
+	text-align: left;
+	margin-right: 0;
+	width: 33%;
+	float: right;
+}
+
+/* Asides */
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+    display: none;
+}
+
+/* Media */
+.site-header img,
+.entry-content img,
+.comment-content img,
+.widget img {
+    max-width: 100%; /* Fluid images for posts, comments, and widgets */
+}
+.site-header img,
+.entry-content img,
+img[class*="align"],
+img[class*="wp-image-"] {
+    height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */
+}
+.site-header img,
+.entry-content img,
+img.size-full {
+    max-width: 100%;
+    width: auto; /* Prevent stretching of full-size images with height and width attributes in IE8 */
+}
+.entry-content img.wp-smiley,
+.comment-content img.wp-smiley {
+    border: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+.wp-caption {
+    border: 1px solid #ccc;
+    max-width: 100%;
+}
+.wp-caption.aligncenter,
+.wp-caption.alignleft,
+.wp-caption.alignright {
+    margin-bottom: 1.5em;
+}
+.wp-caption img {
+    display: block;
+    margin: 1.2% auto 0;
+    max-width: 98%;
+}
+.wp-caption-text {
+    text-align: center;
+}
+.wp-caption .wp-caption-text {
+    margin: 0.8075em 0;
+}
+.site-content .gallery {
+    margin-bottom: 1.5em;
+}
+.gallery-caption {
+}
+.site-content .gallery a img {
+    border: none;
+    height: auto;
+    max-width: 90%;
+}
+.site-content .gallery dd {
+    margin: 0;
+}
+
+/* Navigation */
+.site-content .site-navigation {
+    margin: 0 0 1.5em;
+    overflow: hidden;
+}
+.site-content .nav-previous {
+    float: left;
+    width: 50%;
+}
+.site-content .nav-next {
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+/* Widgets */
+.widget {
+    margin: 0 0 1.5em;
+}

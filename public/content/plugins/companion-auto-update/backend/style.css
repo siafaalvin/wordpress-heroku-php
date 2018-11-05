@@ -1,0 +1,192 @@
+/* Default Stylings */
+div.warning {
+	background: #9178B7;
+	color: #FFF;
+	padding: 10px 15px;
+	margin-top: 15px;
+	border-radius: 3px;
+	display: inline-block;
+}
+p.warningText {
+	margin: 0;
+	padding: 0;
+}
+.cau_support_buttons {
+	display: inline-block;
+}
+
+/* Table Styling */
+table.autoupdate th.head-plugin {
+	min-width: 250px;
+}
+table.autoupdate th.head-status {
+	min-width: 150px;
+}
+table.autoupdate th.check-column {
+	position: relative;
+	min-width: 55px;
+}
+table.autoupdate tr.inactive {
+	background: #FEF7F1;
+}
+table.autoupdate tr.active .check-column {
+	border-left: 3px solid transparent;
+}
+table.autoupdate tr.inactive .check-column {
+	border-left: 3px solid #D54E21;
+}
+table.autoupdate tr.inactive td.column-status p {
+	color: #BF3D3C;
+}
+table.autoupdate tr.active td.column-status p {
+	color: #000;
+}
+
+/* Update Log */
+table.autoupdatelog strong {
+	color: #000;
+}
+table.autoupdatelog .dashicons {
+	color: #00A0D2;
+}
+
+/* Status */
+table.cau_status_list {
+	margin-top: 25px;
+}
+.cau_enabled {
+	color: #7AD03A;
+}
+.cau_disabled {
+	color: #FF0000;
+}
+
+/* Custom checkboxes */
+#the-list input[type="checkbox"]:not(:checked), #the-list input[type="checkbox"]:checked {
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 100;
+	display: block;
+	opacity: 0;
+}
+#the-list input[type="checkbox"]:not(:checked) + label, #the-list input[type="checkbox"]:checked + label {
+	position: absolute;
+	top: 15px;
+	left: 12px;
+	cursor: pointer;
+}
+#the-list input[type="checkbox"]:not(:checked) + label:before, #the-list input[type="checkbox"]:checked + label:before, #the-list input[type="checkbox"]:not(:checked) + label:after, #the-list input[type="checkbox"]:checked + label:after {
+	content: '';
+	position: absolute;
+}
+#the-list input[type="checkbox"]:not(:checked) + label:before, #the-list input[type="checkbox"]:checked + label:before {
+	left: 0; 
+	top: -3px;
+	width: 30px; 
+	height: 16px;
+	background: transparent;
+	border: 2px solid #9178B7;
+	border-radius: 15px;
+	transition: background-color .2s;
+}
+#the-list input[type="checkbox"]:not(:checked) + label:after, #the-list input[type="checkbox"]:checked + label:after {
+	width: 8px; 
+	height: 8px;
+	transition: all .2s;
+	border-radius: 500px;
+	background: transparent;
+	border: 2px solid #9178B7;
+	top: 1px; 
+	left: 5px;
+}
+#the-list input[type="checkbox"]:not(:checked) + label:before {
+ 	background: #9178B7; 
+	border: 2px solid #9178B7;
+}
+#the-list input[type="checkbox"]:not(:checked) + label:after {
+	background: #9178B7;
+	border-color: #FFF;
+	left: 18px;
+}
+.cau_schedule_input {
+	display: inline-block;
+	vertical-align: middle;
+	width: 40px;
+}
+.cau_schedule_input input {
+	max-width: 100%;
+	text-align: center;
+}
+.cau_schedule_input_div {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 6px;
+	font-weight: bold;
+}
+.cau_shedule_notation {
+	display: inline-block;
+	vertical-align: middle;
+	width: 125px;
+	padding-left: 5px;
+}
+.cau_support .dashicons {
+	position: relative;
+	bottom: -6px;
+	font-size: 1.3em;
+}
+.cau_content_wrap .button {
+	box-shadow: none!important;
+	text-shadow: none!important;
+	height: auto;
+}
+.cau_content_wrap .button-primary {
+	background-color: #9178B7;
+	border-color: #6B5887;
+	color: #FFF;
+}
+.cau_content_wrap .button-primary:hover {
+	background-color: #796597;
+	border-color: #5B4C72;
+	color: #FFF;
+}
+.cau_content_wrap .button-primary:active {
+	background-color: #796597;
+	border-color: #5B4C72;
+}
+.cau_support .donate-button {
+	padding: 10px 15px;
+	height: auto;
+}
+.cau_support .rate-button {
+	padding: 10px 20px;
+	height: auto;
+	color: #735F91!important;
+}
+.cau_support_buttons .donate-button {
+	background-color: #9178B7;
+	color: #FFF;
+	border: 0px!important;
+}
+.cau_support_buttons .donate-button:hover {
+	background-color: #735F91;
+	color: #FFF;
+}
+.cau_support_buttons .donate-button:active {
+	background-color: #735F91;
+	color: #FFF;
+}
+
+@media screen and (max-width: 1000px) {
+	.cau_support_buttons, .cau_hide_on_mobile, table.autoupdate thead {
+		display: none!important;
+	}
+	.cau_schedule_input {
+		width: 50px;
+	}
+	.cau_support .dashicons {
+		bottom: 0px;
+	}
+}
